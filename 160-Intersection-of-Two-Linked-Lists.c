@@ -28,5 +28,5 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
             temp2=temp2->next;
         }
     }
-    return temp1;
+    return temp2;
 }
